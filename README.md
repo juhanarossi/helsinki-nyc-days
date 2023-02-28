@@ -1,4 +1,4 @@
-# Showing the Changes in the Length of Days in Helsinki and New York
+# Day Lengths in Helsinki and New York
 ## Overview
 The objective of this project was to show the seasonal changes in the length of days. I was much inspired by this set of graphics published by [Helsingin Sanomat](https://www.hs.fi/kotimaa/art-2000009325191.html). I decided to improve my skills by trying to create a similar set of graphics depicting Helsinki and New York. My goal was also to improve my grasp of the work flow in creating graphics with Adobe Illustrator and make two things: make webpage content that collapse on top of one another when the webpage is narrowed and make a responsive `ai2html` graphic that has mobile and desktop versions.
 ## Data
