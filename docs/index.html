@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change in Day Length</title>
+    <link rel="icon" type="image/png" href="IconSun.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Open Graph metadata -->
+	<meta property="og:title" content="Day Length Varies in Helsinki and New York">
+	<meta property="og:description"
+		content="The variation in the length of days caused by seasonal change is greater in Helsinki than in New York.">
+	<meta property="og:type" content="article">
+	<meta property="og:image"
+		content="https://github.com/juhanarossi/high_elevation_airports-runways/blob/main/docs/dia_runway.jpg">
+	<meta property="og:url" content="https://juhanarossi.github.io/high_elevation_airports-runways/">
+	<!-- Twitter metadata -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:creator" content="@juhanarossi">
+	<!-- Other metadata -->
+	<meta name="keywords"
+		content="airports, aircraft, runway, high elevation airport, Denver International Airport, Helsinki Airport, data journalist, Juhana Rossi, data, data journalism, business reporter">
+	<!--link stylesheets-->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,600|Merriweather:400&display=swap" rel="stylesheet">
+    <style>
+        .hero {
+            background-color: #F5ED2C;
+            padding: 1rem;
+        }
+
+        .hero h1 {
+            color: #131199;
+        }
+
+        .h2 {
+            font-family: 'Arimo 600', sans-serif;
+            font-size: 28pix;
+        }
+
+        .section p {
+            width: 50%;
+            /* change the percentage as desired */
+            padding-top: 10px;
+            /* change the value as desired */
+            padding-left: 70px;
+            /* change the value as desired */
+            font-family: 'Merriweather 400', serif;
+            font-size: 18px;
+        }
+
+        .column-container {
+            font-family: 'Arimo 400', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: bold;
+            
+        }
+            
+        .row-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            gap: 2em;
+        }
+
+        .column-container {
+            flex-grow: 1;
+            padding-left: 70px;
+            padding-top: -20px;
+    }
+
+        @media (max-width: 650px) {
+            .row-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-1">
+                    Here Comes the Sun
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero sapien. Proin mattis eros et purus
+            ullamcorper, nec consectetur elit posuere. Sed at semper ex, nec dapibus elit. Nulla semper pretium
+            facilisis. Curabitur vulputate augue vel enim commodo, eu aliquam nulla commodo. Etiam vestibulum urna
+            ac ipsum feugiat tincidunt. Donec faucibus quam a est commodo rhoncus. Nulla eget tincidunt enim. Donec
+            commodo felis et ex ultrices scelerisque. Nulla facilisi. Fusce dictum sagittis metus, in tincidunt ex
+            dapibus nec. </p>
+    </section>
+    <div class="row-container">
+        <div class="column-container">
+            <!--p>Sunrise and sunset times at Helsinki and New York</p -->
+            <p><bold>Helsinki</bold></p>
+            <!--figure class="image is-640x210" -->
+            <!-- ai file: helsinki_day_change.ai -->
+
+            <style media="screen,print">
+                #g-helsinki_day_change-box,
+                #g-helsinki_day_change-box .g-artboard {
+                    margin: 0 auto;
+                }
+
+                #g-helsinki_day_change-box p {
+                    margin: 0;
+                }
+
+                #g-helsinki_day_change-box .g-aiAbs {
+                    position: absolute;
+                }
+
+                #g-helsinki_day_change-box .g-aiImg {
+                    position: absolute;
+                    top: 0;
+                    display: block;
+                    width: 100% !important;
+                }
+
+                #g-helsinki_day_change-box .g-aiSymbol {
+                    position: absolute;
+                    box-sizing: border-box;
+                }
+
+                #g-helsinki_day_change-box .g-aiPointText p {
+                    white-space: nowrap;
+                }
+
+                #g-helsinki_day_change-Artboard_2 {
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                #g-helsinki_day_change-Artboard_2 p {
+                    font-family: arial, helvetica, sans-serif;
+                    line-height: 15px;
+                    height: auto;
+                    opacity: 1;
+                    letter-spacing: 0em;
+                    font-size: 13px;
+                    text-align: left;
+                    color: rgb(0, 0, 0);
+                    text-transform: none;
+                    padding-bottom: 0;
+                    padding-top: 0;
+                    mix-blend-mode: normal;
+                    font-style: normal;
+                    position: static;
+                }
+
+                #g-helsinki_day_change-Artboard_2 .g-pstyle0 {
+                    height: 15px;
+                    color: rgb(162, 162, 162);
+                }
+
+                #g-helsinki_day_change-Artboard_2 .g-pstyle1 {
+                    font-weight: bold;
+                    height: 15px;
+                    color: rgb(245, 237, 44);
+                }
+
+                #g-helsinki_day_change-Artboard_2 .g-pstyle2 {
+                    font-weight: bold;
+                    height: 15px;
+                    color: rgb(19, 17, 153);
+                }
+
+                #g-helsinki_day_change-Artboard_2 .g-pstyle3 {
+                    height: 15px;
+                }
+            </style>
+
+            <div id="g-helsinki_day_change-box" class="ai2html" -->
+
+
+                <!-- Generated by ai2html v0.115.5 - 2023-02-26 08:30 -->
+                <!-- ai file: helsinki_day_change.ai -->
+                <style media="screen,print">
+                    #g-helsinki_day_change-box,
+                    #g-helsinki_day_change-box .g-artboard {
+                        margin: 0 auto;
+                    }
+
+                    #g-helsinki_day_change-box p {
+                        margin: 0;
+                    }
+
+                    #g-helsinki_day_change-box .g-aiAbs {
+                        position: absolute;
+                    }
+
+                    #g-helsinki_day_change-box .g-aiImg {
+                        position: absolute;
+                        top: 0;
+                        display: block;
+                        width: 100% !important;
+                    }
+
+                    #g-helsinki_day_change-box .g-aiSymbol {
+                        position: absolute;
+                        box-sizing: border-box;
+                    }
+
+                    #g-helsinki_day_change-box .g-aiPointText p {
+                        white-space: nowrap;
+                    }
+
+                    #g-helsinki_day_change-Artboard_2 {
+                        position: relative;
+                        overflow: hidden;
+                    }
+
+                    #g-helsinki_day_change-Artboard_2 p {
+                        font-family: arial, helvetica, sans-serif;
+                        font-weight: bold;
+                        line-height: 15px;
+                        height: auto;
+                        opacity: 1;
+                        letter-spacing: 0em;
+                        font-size: 13px;
+                        text-align: left;
+                        color: rgb(0, 0, 0);
+                        text-transform: none;
+                        padding-bottom: 0;
+                        padding-top: 0;
+                        mix-blend-mode: normal;
+                        font-style: normal;
+                        position: static;
+                    }
+
+                    #g-helsinki_day_change-Artboard_2 .g-pstyle0 {
+                        height: 15px;
+                        color: rgb(162, 162, 162);
+                    }
+
+                    #g-helsinki_day_change-Artboard_2 .g-pstyle1 {
+                        height: 15px;
+                        color: rgb(245, 237, 44);
+                    }
+
+                    #g-helsinki_day_change-Artboard_2 .g-pstyle2 {
+                        height: 15px;
+                        color: rgb(19, 17, 153);
+                    }
+
+                    #g-helsinki_day_change-Artboard_2 .g-pstyle3 {
+                        height: 15px;
+                    }
+                </style>
+
+                <div id="g-helsinki_day_change-box" class="ai2html">
+
+                    <!-- Artboard: Artboard_2 -->
+                    <div id="g-helsinki_day_change-Artboard_2" class="g-artboard"
+                        style="max-width: 749px;max-height: 291px" data-aspect-ratio="2.574" data-min-width="0">
+                        <div style="padding: 0 0 38.8518% 0;"></div>
+                        <img id="g-helsinki_day_change-Artboard_2-img"
+                            class="g-helsinki_day_change-Artboard_2-img g-aiImg" alt=""
+                            src="helsinki_day_change-Artboard_2.png" />
+                        <div id="g-ai0-1" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:17.1502%;margin-top:-8.9px;left:16.8475%;width:58px;">
+                            <p class="g-pstyle0">12 am</p>
+                        </div>
+                        <div id="g-ai0-2" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:17.1502%;margin-top:-8.9px;left:33.2769%;width:51px;">
+                            <p class="g-pstyle0">6 am</p>
+                        </div>
+                        <div id="g-ai0-3" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:17.1502%;margin-top:-8.9px;left:51.132%;width:59px;">
+                            <p class="g-pstyle0">12 pm</p>
+                        </div>
+                        <div id="g-ai0-4" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:19.7918%;margin-top:-16.6px;left:69.9383%;width:52px;">
+                            <p class="g-pstyle0">6 pm</p>
+                        </div>
+                        <div id="g-ai0-5" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:17.1502%;margin-top:-8.9px;left:85.4165%;width:58px;">
+                            <p class="g-pstyle0">12 am</p>
+                        </div>
+                        <div id="g-ai0-6" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:25.054%;margin-top:-8.9px;left:38.3262%;width:70px;">
+                            <p class="g-pstyle1">9:20 am</p>
+                        </div>
+                        <div id="g-ai0-7" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:25.054%;margin-top:-8.9px;left:49.3262%;width:85px;">
+                            <p class="g-pstyle2">5 h 56 min</p>
+                        </div>
+                        <div id="g-ai0-8" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:25.054%;margin-top:-8.9px;left:64.2015%;width:70px;">
+                            <p class="g-pstyle1">3:16 pm</p>
+                        </div>
+                        <div id="g-ai0-9" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:25.054%;margin-top:-8.9px;left:4.7918%;width:102px;">
+                            <p class="g-pstyle3">Dec. 21, 2022</p>
+                        </div>
+                        <div id="g-ai0-10" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:33.9887%;margin-top:-8.9px;left:37.2574%;width:70px;">
+                            <p class="g-pstyle1">8:56 am</p>
+                        </div>
+                        <div id="g-ai0-11" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:33.9887%;margin-top:-8.9px;left:49.3262%;width:85px;">
+                            <p class="g-pstyle2">7 h 10 min</p>
+                        </div>
+                        <div id="g-ai0-12" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:33.9887%;margin-top:-8.9px;left:66.7471%;width:70px;">
+                            <p class="g-pstyle1">4:06 pm</p>
+                        </div>
+                        <div id="g-ai0-13" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:33.9887%;margin-top:-8.9px;left:5.1689%;width:101px;">
+                            <p class="g-pstyle3">Jan. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-14" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:43.2671%;margin-top:-8.9px;left:33.5291%;width:70px;">
+                            <p class="g-pstyle1">7:40 am</p>
+                        </div>
+                        <div id="g-ai0-15" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:43.2671%;margin-top:-8.9px;left:49.3262%;width:85px;">
+                            <p class="g-pstyle2">9 h 47 min</p>
+                        </div>
+                        <div id="g-ai0-16" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:43.2671%;margin-top:-8.9px;left:70.8718%;width:70px;">
+                            <p class="g-pstyle1">5:27 pm</p>
+                        </div>
+                        <div id="g-ai0-17" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:43.2671%;margin-top:-8.9px;left:4.9235%;width:102px;">
+                            <p class="g-pstyle3">Feb. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-18" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:53.2327%;margin-top:-8.9px;left:29.5891%;width:70px;">
+                            <p class="g-pstyle1">6:20 am</p>
+                        </div>
+                        <div id="g-ai0-19" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:53.2327%;margin-top:-8.9px;left:48.8506%;width:92px;">
+                            <p class="g-pstyle2">12 h 25 min</p>
+                        </div>
+                        <div id="g-ai0-20" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:53.2327%;margin-top:-8.9px;left:74.333%;width:70px;">
+                            <p class="g-pstyle1">6:35 pm</p>
+                        </div>
+                        <div id="g-ai0-21" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:53.5764%;margin-top:-8.9px;left:4.9235%;width:101px;">
+                            <p class="g-pstyle3">Mar. 20, 2023</p>
+                        </div>
+                        <div id="g-ai0-22" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:62.1674%;margin-top:-8.9px;left:27.7049%;width:70px;">
+                            <p class="g-pstyle1">5:43 am</p>
+                        </div>
+                        <div id="g-ai0-23" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:62.1674%;margin-top:-8.9px;left:48.8977%;width:91px;">
+                            <p class="g-pstyle2">15 h 11 min</p>
+                        </div>
+                        <div id="g-ai0-24" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:62.1674%;margin-top:-8.9px;left:81.4109%;width:70px;">
+                            <p class="g-pstyle1">8:54 pm</p>
+                        </div>
+                        <div id="g-ai0-25" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:62.1674%;margin-top:-8.9px;left:5.0638%;width:100px;">
+                            <p class="g-pstyle3">Apr. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-26" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:71.1021%;margin-top:-8.9px;left:23.6826%;width:70px;">
+                            <p class="g-pstyle1">4:24 am</p>
+                        </div>
+                        <div id="g-ai0-27" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:71.1021%;margin-top:-8.9px;left:48.8506%;width:92px;">
+                            <p class="g-pstyle2">17 h 44 min</p>
+                        </div>
+                        <div id="g-ai0-28" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:71.1021%;margin-top:-8.9px;left:76.7669%;width:78px;">
+                            <p class="g-pstyle2">10:08 pm</p>
+                        </div>
+                        <div id="g-ai0-29" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:71.4458%;margin-top:-8.9px;left:4.7918%;width:103px;">
+                            <p class="g-pstyle3">May. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-30" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:80.0368%;margin-top:-8.9px;left:21.9522%;width:70px;">
+                            <p class="g-pstyle1">3:50 am</p>
+                        </div>
+                        <div id="g-ai0-31" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:80.0368%;margin-top:-8.9px;left:48.8506%;width:92px;">
+                            <p class="g-pstyle2">19 h 05 min</p>
+                        </div>
+                        <div id="g-ai0-32" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:80.0368%;margin-top:-8.9px;left:78.7735%;width:78px;">
+                            <p class="g-pstyle2">10:53 pm</p>
+                        </div>
+                        <div id="g-ai0-33" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:80.3805%;margin-top:-8.9px;left:4.7918%;width:102px;">
+                            <p class="g-pstyle3">Jun. 21, 2023</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- End ai2html - 2023-02-26 08:30 -->
+            </div>
+        </div>
+        <div class="column-container">
+            </figure>
+            <figure class="image is-640x210">
+                <p>New York</p>
+                <!-- Generated by ai2html v0.115.5 - 2023-02-26 08:09 -->
+                <!-- ai file: new-york.ai -->
+                <style media="screen,print">
+                    #g-new-york-box,
+                    #g-new-york-box .g-artboard {
+                        margin: 0 auto;
+                    }
+
+                    #g-new-york-box p {
+                        margin: 0;
+                    }
+
+                    #g-new-york-box .g-aiAbs {
+                        position: absolute;
+                    }
+
+                    #g-new-york-box .g-aiImg {
+                        position: absolute;
+                        top: 0;
+                        display: block;
+                        width: 100% !important;
+                    }
+
+                    #g-new-york-box .g-aiSymbol {
+                        position: absolute;
+                        box-sizing: border-box;
+                    }
+
+                    #g-new-york-box .g-aiPointText p {
+                        white-space: nowrap;
+                    }
+
+                    #g-new-york-Artboard_2 {
+                        position: relative;
+                        overflow: hidden;
+                    }
+
+                    #g-new-york-Artboard_2 p {
+                        font-family: arial, helvetica, sans-serif;
+                        font-weight: bold;
+                        line-height: 15px;
+                        height: auto;
+                        opacity: 1;
+                        letter-spacing: 0em;
+                        font-size: 13px;
+                        text-align: left;
+                        color: rgb(245, 237, 44);
+                        text-transform: none;
+                        padding-bottom: 0;
+                        padding-top: 0;
+                        mix-blend-mode: normal;
+                        font-style: normal;
+                        position: static;
+                    }
+
+                    #g-new-york-Artboard_2 .g-pstyle0 {
+                        height: 15px;
+                        color: rgb(162, 162, 162);
+                    }
+
+                    #g-new-york-Artboard_2 .g-pstyle1 {
+                        height: 15px;
+                        color: rgb(0, 0, 0);
+                    }
+
+                    #g-new-york-Artboard_2 .g-pstyle2 {
+                        height: 15px;
+                    }
+
+                    #g-new-york-Artboard_2 .g-pstyle3 {
+                        height: 15px;
+                        color: rgb(19, 17, 153);
+                    }
+                </style>
+
+                <div id="g-new-york-box" class="ai2html">
+
+                    <!-- Artboard: Artboard_2 -->
+                    <div id="g-new-york-Artboard_2" class="g-artboard" style="max-width: 722px;max-height: 283px"
+                        data-aspect-ratio="2.551" data-min-width="0">
+                        <div style="padding: 0 0 39.1967% 0;"></div>
+                        <img id="g-new-york-Artboard_2-img" class="g-new-york-Artboard_2-img g-aiImg" alt=""
+                            src="new-york-Artboard_2.png" />
+                        <div id="g-ai0-1" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:20.6874%;margin-top:-8.5px;left:14.526%;width:58px;">
+                            <p class="g-pstyle0">12 am</p>
+                        </div>
+                        <div id="g-ai0-2" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:20.6874%;margin-top:-8.5px;left:31.5988%;width:51px;">
+                            <p class="g-pstyle0">6 am</p>
+                        </div>
+                        <div id="g-ai0-3" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:20.6874%;margin-top:-8.5px;left:50.1531%;width:58px;">
+                            <p class="g-pstyle0">12 pm</p>
+                        </div>
+                        <div id="g-ai0-4" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:20.6874%;margin-top:-8.5px;left:69.696%;width:51px;">
+                            <p class="g-pstyle0">6 pm</p>
+                        </div>
+                        <div id="g-ai0-5" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:20.6874%;margin-top:-8.5px;left:85.7802%;width:58px;">
+                            <p class="g-pstyle0">12 am</p>
+                        </div>
+                        <div id="g-ai0-6" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:29.5213%;margin-top:-8.5px;left:2.4425%;width:102px;">
+                            <p class="g-pstyle1">Dec. 21, 2022</p>
+                        </div>
+                        <div id="g-ai0-7" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:29.6375%;margin-top:-8.9px;left:30.5302%;width:70px;">
+                            <p class="g-pstyle2">7:15 am</p>
+                        </div>
+                        <div id="g-ai0-8" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:29.6375%;margin-top:-8.9px;left:48.4735%;width:85px;">
+                            <p class="g-pstyle3">9 h 18 min</p>
+                        </div>
+                        <div id="g-ai0-9" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:29.6375%;margin-top:-8.9px;left:67.8078%;width:71px;">
+                            <p class="g-pstyle2">4:33 pm</p>
+                        </div>
+                        <div id="g-ai0-10" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:38.3553%;margin-top:-8.5px;left:2.4425%;width:100px;">
+                            <p class="g-pstyle1">Jan. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-11" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:38.4714%;margin-top:-8.9px;left:30.4236%;width:70px;">
+                            <p class="g-pstyle2">7:13 am</p>
+                        </div>
+                        <div id="g-ai0-12" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:38.4714%;margin-top:-8.9px;left:48.4735%;width:85px;">
+                            <p class="g-pstyle3">9 h 48 min</p>
+                        </div>
+                        <div id="g-ai0-13" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:38.4714%;margin-top:-8.9px;left:69.2891%;width:71px;">
+                            <p class="g-pstyle2">5:01 pm</p>
+                        </div>
+                        <div id="g-ai0-14" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:47.5425%;margin-top:-8.5px;left:2.4425%;width:101px;">
+                            <p class="g-pstyle1">Feb. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-15" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:47.6587%;margin-top:-8.9px;left:28.6763%;width:70px;">
+                            <p class="g-pstyle2">6:40 am</p>
+                        </div>
+                        <div id="g-ai0-16" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:47.6587%;margin-top:-8.9px;left:47.979%;width:92px;">
+                            <p class="g-pstyle3">10 h 59 min</p>
+                        </div>
+                        <div id="g-ai0-17" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:47.6587%;margin-top:-8.9px;left:71.3004%;width:71px;">
+                            <p class="g-pstyle2">5:39 pm</p>
+                        </div>
+                        <div id="g-ai0-18" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:56.3765%;margin-top:-8.5px;left:2.4425%;width:100px;">
+                            <p class="g-pstyle1">Mar. 20, 2023</p>
+                        </div>
+                        <div id="g-ai0-19" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:56.4926%;margin-top:-8.9px;left:29.6296%;width:69px;">
+                            <p class="g-pstyle2">6.58 am</p>
+                        </div>
+                        <div id="g-ai0-20" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:56.4926%;margin-top:-8.9px;left:48.045%;width:91px;">
+                            <p class="g-pstyle3">12 h 11 min</p>
+                        </div>
+                        <div id="g-ai0-21" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:56.4926%;margin-top:-8.9px;left:76.0634%;width:71px;">
+                            <p class="g-pstyle2">7:09 pm</p>
+                        </div>
+                        <div id="g-ai0-22" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:65.5637%;margin-top:-8.5px;left:2.4398%;width:98px;">
+                            <p class="g-pstyle1">Apr. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-23" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:65.6799%;margin-top:-8.9px;left:26.9312%;width:69px;">
+                            <p class="g-pstyle2">6.07 am</p>
+                        </div>
+                        <div id="g-ai0-24" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:65.6799%;margin-top:-8.9px;left:47.979%;width:92px;">
+                            <p class="g-pstyle3">13 h 35 min</p>
+                        </div>
+                        <div id="g-ai0-25" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:65.6799%;margin-top:-8.9px;left:77.8084%;width:71px;">
+                            <p class="g-pstyle2">7:42 pm</p>
+                        </div>
+                        <div id="g-ai0-26" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:74.3977%;margin-top:-8.5px;left:2.4425%;width:102px;">
+                            <p class="g-pstyle1">May. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-27" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:74.5138%;margin-top:-8.9px;left:25.0795%;width:69px;">
+                            <p class="g-pstyle2">5.32 am</p>
+                        </div>
+                        <div id="g-ai0-28" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:74.5138%;margin-top:-8.9px;left:47.979%;width:92px;">
+                            <p class="g-pstyle3">14 h 41 min</p>
+                        </div>
+                        <div id="g-ai0-29" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:74.5138%;margin-top:-8.9px;left:79.4492%;width:71px;">
+                            <p class="g-pstyle2">8:13 pm</p>
+                        </div>
+                        <div id="g-ai0-30" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:83.585%;margin-top:-8.5px;left:2.4425%;width:100px;">
+                            <p class="g-pstyle1">Jun. 21, 2023</p>
+                        </div>
+                        <div id="g-ai0-31" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:83.7011%;margin-top:-8.9px;left:24.6029%;width:69px;">
+                            <p class="g-pstyle2">5.23 am</p>
+                        </div>
+                        <div id="g-ai0-32" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:83.7011%;margin-top:-8.9px;left:47.979%;width:92px;">
+                            <p class="g-pstyle3">15 h 09 min</p>
+                        </div>
+                        <div id="g-ai0-33" class="g-exportSvg g-aiAbs g-aiPointText"
+                            style="top:86.4059%;margin-top:-16.5px;left:80.4537%;width:71px;">
+                            <p class="g-pstyle2">8:32 pm</p>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    <!-- End ai2html - 2023-02-26 08:09 -->
+    <section class="section">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero sapien. Proin mattis eros et purus
+            ullamcorper, nec consectetur elit posuere. Sed at semper ex, nec dapibus elit. Nulla semper pretium
+            facilisis. Curabitur vulputate augue vel enim commodo, eu aliquam nulla commodo. Etiam vestibulum urna
+            ac ipsum feugiat tincidunt. Donec faucibus quam a est commodo rhoncus. Nulla eget tincidunt enim. Donec
+            commodo felis et ex ultrices scelerisque. Nulla facilisi. Fusce dictum sagittis metus, in tincidunt ex
+            dapibus nec. </p>
+    <!-- Generated by ai2html v0.115.5 - 2023-02-27 08:10 -->
+    <!-- ai file: days_combined.ai -->
+    <style media="screen,print">
+        #g-days_combined-box,
+        #g-days_combined-box .g-artboard {
+            margin: 0 auto;
+        }
+
+        #g-days_combined-box p {
+            margin: 0;
+        }
+
+        #g-days_combined-box .g-aiAbs {
+            position: absolute;
+        }
+
+        #g-days_combined-box .g-aiImg {
+            position: absolute;
+            top: 0;
+            display: block;
+            width: 100% !important;
+        }
+
+        #g-days_combined-box .g-aiSymbol {
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        #g-days_combined-box .g-aiPointText p {
+            white-space: nowrap;
+        }
+
+        #g-days_combined-Artboard_4 {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #g-days_combined-Artboard_4 p {
+            font-family: arial, helvetica, sans-serif;
+            line-height: 17px;
+            height: auto;
+            opacity: 1;
+            letter-spacing: 0em;
+            font-size: 14px;
+            text-align: left;
+            color: rgb(0, 0, 0);
+            text-transform: none;
+            padding-bottom: 0;
+            padding-top: 0;
+            mix-blend-mode: normal;
+            font-style: normal;
+            position: static;
+        }
+
+        #g-days_combined-Artboard_4 .g-pstyle0 {
+            height: 17px;
+        }
+
+        #g-days_combined-Artboard_2 {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #g-days_combined-Artboard_2 p {
+            font-family: arial, helvetica, sans-serif;
+            font-weight: bold;
+            line-height: 19px;
+            height: auto;
+            opacity: 1;
+            letter-spacing: 0em;
+            font-size: 16px;
+            text-align: left;
+            color: rgb(45, 48, 137);
+            text-transform: none;
+            padding-bottom: 0;
+            padding-top: 0;
+            mix-blend-mode: normal;
+            font-style: normal;
+            position: static;
+        }
+
+        #g-days_combined-Artboard_2 .g-pstyle0 {
+            height: 19px;
+            color: rgb(0, 0, 0);
+        }
+
+        #g-days_combined-Artboard_2 .g-pstyle1 {
+            height: 19px;
+            color: rgb(242, 234, 48);
+        }
+
+        #g-days_combined-Artboard_2 .g-pstyle2 {
+            height: 19px;
+        }
+    </style>
+
+    <div id="g-days_combined-box" class="ai2html">
+
+        <!-- Artboard: Artboard_4 -->
+        <div id="g-days_combined-Artboard_4" class="g-artboard" style="max-width: 302px;max-height: 471px"
+            data-aspect-ratio="0.641" data-min-width="0" data-max-width="612">
+            <div style="padding: 0 0 155.9603% 0;"></div>
+            <img id="g-days_combined-Artboard_4-img" class="g-days_combined-Artboard_4-img g-aiImg" alt=""
+                src="days_combined-Artboard_4.png" />
+            <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:14.6227%;margin-top:-9.9px;left:21.8019%;width:82px;">
+                <p class="g-pstyle0">New York</p>
+            </div>
+            <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:20.2478%;margin-top:-18.4px;left:15.7743%;width:146px;">
+                <p class="g-pstyle0">shortest: 9 h 18 min</p>
+                <p class="g-pstyle0">longest: 15 h 9 min </p>
+            </div>
+            <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:26.7246%;margin-top:-9.9px;left:21.8019%;width:72px;">
+                <p class="g-pstyle0">Helsinki</p>
+            </div>
+            <div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:32.562%;margin-top:-18.4px;left:15.7743%;width:146px;">
+                <p class="g-pstyle0">shortest: 5 h 56 min</p>
+                <p class="g-pstyle0">longest: 19 h 3 min </p>
+            </div>
+            <div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:46.2575%;margin-top:-9.9px;left:2.5927%;width:50px;">
+                <p class="g-pstyle0">10 h</p>
+            </div>
+            <div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:67.0643%;margin-top:-9.9px;left:4.8271%;width:42px;">
+                <p class="g-pstyle0">5 h</p>
+            </div>
+            <div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:92.647%;margin-top:-18.4px;left:15.775%;width:110px;">
+                <p class="g-pstyle0">shortest:</p>
+                <p class="g-pstyle0">Dec. 21, 2022</p>
+            </div>
+            <div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:92.647%;margin-top:-18.4px;left:62.6969%;width:108px;">
+                <p class="g-pstyle0">longest:</p>
+                <p class="g-pstyle0">Jun. 21, 2023</p>
+            </div>
+        </div>
+
+        <!-- Artboard: Artboard_2 -->
+        <div id="g-days_combined-Artboard_2" class="g-artboard" style="width:613px; height:272px;"
+            data-aspect-ratio="2.254" data-min-width="613">
+            <div style=""></div>
+            <img id="g-days_combined-Artboard_2-img" class="g-days_combined-Artboard_2-img g-aiImg" alt=""
+                src="days_combined-Artboard_2.png" />
+            <div id="g-ai1-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:8.0746%;margin-top:-11px;left:5.9976%;width:90px;">
+                <p class="g-pstyle0">New York</p>
+            </div>
+            <div id="g-ai1-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:8.0746%;margin-top:-11px;left:21.81%;width:78px;">
+                <p class="g-pstyle0">Helsinki</p>
+            </div>
+            <div id="g-ai1-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:22.932%;margin-top:-11.4px;left:3.8769%;width:100px;">
+                <p class="g-pstyle1">9 h 18 min</p>
+            </div>
+            <div id="g-ai1-4" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:30.2849%;margin-top:-11.4px;left:50.0599%;width:227px;">
+                <p class="g-pstyle0">shortest day: Dec. 21, 2022</p>
+            </div>
+            <div id="g-ai1-5" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:41.3143%;margin-top:-11.4px;left:3.8769%;width:100px;">
+                <p class="g-pstyle2">5 h 56 min</p>
+            </div>
+            <div id="g-ai1-6" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:64.8438%;margin-top:-11.4px;left:3.8769%;width:100px;">
+                <p class="g-pstyle1">15 h 9 min</p>
+            </div>
+            <div id="g-ai1-7" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:82.8585%;margin-top:-11.4px;left:3.8769%;width:100px;">
+                <p class="g-pstyle2">19 h 3 min</p>
+            </div>
+            <div id="g-ai1-8" class="g-Layer_1 g-aiAbs g-aiPointText"
+                style="top:82.8585%;margin-top:-11.4px;left:50.1199%;width:220px;">
+                <p class="g-pstyle2">longest day: Jun. 21, 2023</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End ai2html - 2023-02-27 08:10 -->
+
+    </figure>
+
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            // only want one resizer on the page
+            if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+            document.documentElement.className += " g-resizer-v3-init";
+            // require IE9+
+            if (!("querySelector" in document)) return;
+            function resizer() {
+                var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                    widthById = {};
+                elements.forEach(function (el) {
+                    var parent = el.parentNode,
+                        width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                        minwidth = el.getAttribute("data-min-width"),
+                        maxwidth = el.getAttribute("data-max-width");
+                    widthById[parent.id] = width;
+
+                    if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                        el.style.display = "block";
+                    } else {
+                        el.style.display = "none";
+                    }
+                });
+                try {
+                    if (window.parent && window.parent.$) {
+                        window.parent.$("body").trigger("resizedcontent", [window]);
+                    }
+                    if (window.require) {
+                        require(['foundation/main'], function () {
+                            require(['shared/interactive/instances/app-communicator'], function (AppCommunicator) {
+                                AppCommunicator.triggerResize();
+                            });
+                        });
+                    }
+                } catch (e) { console.log(e); }
+            }
+
+            document.addEventListener('DOMContentLoaded', resizer);
+            // feel free to replace throttle with _.throttle, if available
+            window.addEventListener('resize', throttle(resizer, 200));
+
+            function throttle(func, wait) {
+                // from underscore.js
+                var _now = Date.now || function () { return new Date().getTime(); },
+                    context, args, result, timeout = null, previous = 0;
+                var later = function () {
+                    previous = _now();
+                    timeout = null;
+                    result = func.apply(context, args);
+                    if (!timeout) context = args = null;
+                };
+                return function () {
+                    var now = _now(), remaining = wait - (now - previous);
+                    context = this;
+                    args = arguments;
+                    if (remaining <= 0 || remaining > wait) {
+                        if (timeout) {
+                            clearTimeout(timeout);
+                            timeout = null;
+                        }
+                        previous = now;
+                        result = func.apply(context, args);
+                        if (!timeout) context = args = null;
+                    } else if (!timeout && options.trailing !== false) {
+                        timeout = setTimeout(later, remaining);
+                    }
+                    return result;
+                };
+            }
+
+
+        })();
+
+    </script>
+</body>
+
+</html>
